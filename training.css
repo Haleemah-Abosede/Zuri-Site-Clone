@@ -39,6 +39,8 @@ body{
 
 .header a{
     text-decoration: none;
+    color: #1b1a20;
+    font-size: 18px;
 }
 
 .header-flex a{
