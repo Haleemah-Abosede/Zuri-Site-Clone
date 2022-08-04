@@ -1,0 +1,219 @@
+*{
+    font-family: Averta, sans-serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent,
+}
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+  
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+a{
+    color: #e7332b;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero-container{
+    height: 800px;
+    background-image: url("https://zuri.team/img/hero-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.center-image{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+.hero{
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero h2{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 30px;
+}
+.hero p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.btn-div{
+    margin-top: 92px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.7rem;
+    justify-content: center;
+}
+
+button{
+    padding: 11px 28px;
+    border: 1px solid #e7332b;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.btn-red{
+    background-color: #e7332b;
+    color: #fff;
+}
+.btn-red-outline{
+    background-color: #fff;
+    color: #e7332b;
+}
+
+.program-content{
+     margin : 4rem;
+}
+.slogan, .heading{
+    text-align: center;
+    
+}
+.heading{
+    color: #e7332b;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.program-card{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.program-card-content{
+    background-color: #fffafa;
+    width: 90%;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.content img{
+    height: 6rem;
+    padding-bottom: 1rem;
+}
+
+/* remains font-size and fonts*/
+
+footer{
+    margin: 2rem;
+}
+
+.footer-flex-container{
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.footer-flex-container .image img{
+    margin-top: 1.2rem;
+    
+}
+
+.follow .contact-icons {
+      display: flex;
+      gap: .5rem;
+}
+.follow .contact-icons img{
+    height: 1.2rem;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .center-image{
+        padding-top: 9rem;
+    }
+    .hero-container{
+        height: auto;
+    }
+    .hero h2{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .btn-div{
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    button{
+        display:block;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .program-card{
+        flex-direction: column;
+    }
+
+    .footer-flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact{
+        text-align: center;
+    }
+
+
+}
+
+@media(max-width: 200px){
+    .program-card{
+        flex-direction: column;
+    }
+     
+    .program-card-content{
+        width: 85%;
+    }
+   
+     .footer-flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact{
+        text-align: center;
+    }
+}
