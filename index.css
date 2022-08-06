@@ -1,5 +1,6 @@
-*{
-    font-family: Averta, sans-serif;
+*{                                                                    font-family: 'Averta Standard', sans-serif;
+    font-family: 'Averta Standard', sans-serif;
+                                                
 }
 *, ::after, ::before {
     box-sizing: border-box;

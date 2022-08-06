@@ -82,7 +82,6 @@ body{
     display: flex;
     align-items: center;
     margin: auto!important;
-    max-width: 1440px!important;
     padding-top: 200px!important;
     width: 90%!important;
 }
@@ -1059,6 +1058,9 @@ body{
     color: #1b1a20;
 }
 
+.accordion{
+    cursor: pointer;
+}
 
 
 
