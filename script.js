@@ -8,9 +8,9 @@ for   ( i=0; i < acc.length; i++ ){
         this.classList.toggle("active");
 
         //toggle between hiding and showing the answer
-        var answer = this.classList.toggle("active");
+        var answer = this.nextElementSibling;
         console.log(answer)
-        if (answer.style.display === "block"){
+        if (answer.style.display === "block") {
             answer.style.display = "none";
         } else {
             answer.style.display = "block";
