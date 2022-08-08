@@ -94,6 +94,19 @@ button{
     color: #e7332b;
 }
 
+.btn-red:hover{
+    background-color: #fff;
+    color: #e7332b;
+    /* border: 1px solid #212529; */
+}
+
+.btn-red-outline:hover{
+    background-color: #e7332b;
+    color:#fff;
+    border: 1px solid #212529;
+}
+
+
 .program-content{
      margin : 4rem;
 }
